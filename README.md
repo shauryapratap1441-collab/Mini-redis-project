@@ -1,4 +1,4 @@
-# Mini Redis
+# Mini Redis    🔗 **[Try it live](https://mini-redis-1nst.onrender.com)**
 
 A from-scratch, in-memory key-value store in Java, built to mirror the core
 mechanics of real Redis: a plaintext TCP protocol, multiple data types,

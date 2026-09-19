@@ -90,14 +90,13 @@ one) plus the raw TCP port 6379 for telnet, which most free-tier platforms
 won't expose publicly — that's fine, the browser demo is the primary way
 for others to try it live.
 
-1. Push this repo to GitHub.
+1. Push the repo to GitHub.
 2. On [Render](https://render.com) (or Railway/Fly.io), create a new **Web
    Service** from the repo, environment: **Docker**.
 3. No extra config needed — Render auto-detects the `Dockerfile`, injects
    `PORT`, and provisions a public HTTPS URL with WebSocket support.
-4. Once deployed, visit the assigned URL — that's your live demo link for
-   LinkedIn and your resume.
-
+4. Once deployed, the assigned URL serves the live browser demo directly.
+ 
 ## Running it
 
 Requires JDK 24 and Maven.
